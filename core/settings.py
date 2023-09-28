@@ -40,9 +40,11 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # myapps
     "phonebook_app",
+    "users",
     
     #3rd party
     "rest_framework",
+    "rest_framework.authtoken",
 ]
 
 MIDDLEWARE = [
